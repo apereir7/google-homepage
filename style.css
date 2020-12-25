@@ -6,6 +6,17 @@ img {
 }
 
 h2 {
-    margin-left: 410px;
+    margin-left: 350px;
+    width: 500px;
     
+}
+
+input {
+    width: 300px;
+    
+
+}
+
+.searchbar {
+    border-radius: 50%;
 }
