@@ -1,29 +1,302 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Google</title>
-    </head>
-    <body>
-        <h1></h1>
-            <div>
-                <img style="width: 400px; margin-left: 230px; margin-top: 150px;" src="//www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif"  alt="Google's New Logo">         
-               <link rel="stylesheet" href="style.css"/>
+<!doctype html>
 
-            </div>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>My webpage</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        background-color: transparent;
+        font-family: Arial;
+        font-size: 13px;
+        color: black;
+        display: inline;
         
-    <container>
-        <input type=text placeholder="search">
-    </container>>
 
+    }
+
+    .float_left {
+        float: left;
+        padding-top: 15px;
+        margin-left: 10px;
+        
+    }
+
+    li a {
+        padding: 3px;
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+
+    .float_right {
+        float: right;
+        padding-top: 15px;
+        margin-right: 36px;
+        padding: -1px;
+    }
     
+    .bottom_left {
+        float: left;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+
+    .bottom_right {
+        float: right;
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+
+    #googleLogo {
+        width: 300px;
+        length: 300px;
+        padding-left: 110px;
+        padding-top: 200px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #searchBar {
+        text-align: center;
+        margin: auto;
+    }
+
+    #googleImage {
+        text-align: center;
+        margin:auto;
+    }
+
+    #input {
+        width: 400px;
+        height: 25px;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        background-color: transparent;
+    }
+
+    #magnify_glass {
+        height: 20px;
+        width: 20px;
+        background-color: transparent;
+        position: relative;
+        right: 29px;
+        top: 4px;
+    }
+
+    #divGoogleSearchButton {
+        width: 240px;
+        margin:auto;
+        padding-top: 20px;
+    }
+
+    #ImFeelingLucky {
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+
+    }
+
+    #GoogleSearchButton {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #fbar {
+        background-color: #f2f2f2;
+        position: fixed;
+        bottom: 0px;
+        width:100%;
+        height:40px;
+        border-top: 1px solid #dadce0;
+        right: 0px;
         
+        
+    }
+
+    @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+        src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    }
+
+
+
+    .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+    }
+    #Search_icon{
+        padding-left: 3px;
+        position: relative;
+        padding-top: 4px;
+        opacity: 0.35;
+        left: 35px;
+        top: 8px;
+    }    
+
+    #advertising {
+        padding-left: 12px;
+    }
+
+    #settings {
+        padding-right: 18px;
+    }
+
+    #leaf ()
+    }
+
+    #carbon {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        bottom: 15px;
+    }  
+
+    #bottom_center {
+        text-align: center;
+        position: relative;
+        bottom: 15px;
+    }
+
+    #carbon {
+        color: black;
+        text-decoration: none;
+        padding-left: 2px;
+    }
     
+</style>
+
+</head>
+
+<body>
+
+<ul>
+    <li class="float_left">
+        <a href="about">About</a>
+    </li>
+    <li class="float_left">
+        <a href="home">Store</a>
+    </li>
+
+    <li class="float_right">
+        <i class="material-icons" id="apps">apps</i>
+    </li>
+    <li class="float_right">
+        <a href="images">Images</a>
+    </li>
+    <li class="float_right">
+        <a href="#gmail">Gmail</a>
+    </li>
     
+</ul>
 
-        </body>
+<div id="googleImage">
+    <img alt="Google" height="92" id="googleLogo" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/552px-Google_2015_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/736px-Google_2015_logo.svg.png 2x">
+</div>
+
+<div id="searchBar">
+  
+    <i class="material-icons" id="Search_icon">search</i>
+    <input id="input" type="text" placeholder="Search"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" alt="" id="magnify_glass">
 
 
+</div>
 
+<div id="divGoogleSearchButton">
+    <button class="buttons" id="GoogleSearchButton" type="submit">Google Search</button>  
+    <button class="buttons" id="ImFeelingLucky" type="submit">I'm Feeling Lucky</button>
+</div>
+
+<div id="fbar">
+    <ul>
+        <li class="bottom_left">
+            <a id="advertising" href="#advertising">Advertising</a>
+        </li>
+        <li class="bottom_left">
+            <a href="#business">Business</a>
+        </li>
+        <li class="bottom_left">
+            <a href="#howSearchWorks">How Search Works</a>
+        </li>
+
+
+        <li class="bottom_right">
+            <a id="settings" href="settings">Settings</a>
+        </li>
+        <li class="bottom_right">
+            <a href="#terms">Terms</a>
+        </li>
+        <li class="bottom_right">
+            <a href="#privacy">Privacy</a>
+        </li>
         
         
+
+    </ul>
+    <div id="bottom_center">
+        <img id="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" class="r8PpOd" alt="Leaf image" data-iml="1611790710083" data-atf="1">
+
+        <a href="#" id="carbon">Carbon neutral since 2007</a>
+    </div>
+
+ 
+</div>
+
+
+
+<script>
+
+
+
+
+
+</script>
+</body>
 </html>
